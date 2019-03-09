@@ -16,14 +16,3 @@ app.use(function (req, res, next) {
 app.get('/api/endpoint1', (req, res) => {
     res.send(JSON.stringify({value: 1}));
 })
-
-app.get('/api/endpoint2', (req, res) => {
-    // Set Content-Type differently for this particular API
-    res.set({'Content-Type': 'application/xml'});
-    res.send(`<note>
-        <to>Tove</to>
-        <from>Jani</from>
-        <heading>Reminder</heading>
-        <body>Don't forget me this weekend!</body>
-        </note>`);
-})
