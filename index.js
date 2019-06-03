@@ -13,6 +13,6 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.get('/api/endpoint1', (req, res) => {
+app.get('/api/endpoint', (req, res) => {
     res.send(JSON.stringify({value: 1}));
 })
