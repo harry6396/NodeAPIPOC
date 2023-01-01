@@ -18,6 +18,6 @@
   "homepage": "https://github.com/harry6396/NodeAPIPOC#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "webpack": "^4.29.6"
+    "webpack": "^5.75.0"
   }
 }
